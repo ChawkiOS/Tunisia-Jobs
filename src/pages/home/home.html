@@ -8,14 +8,11 @@
 
 <ion-content class="home-content">
   
-  <ion-card *ngFor="let item of news">
-
+  <ion-card *ngFor="let item of news" (click)="itemTapped($event, item)">
 	  <img [src]="item.image">
-
   	<ion-card-header class="fr-card-header">
   		{{item.title}}
 	  </ion-card-header>
-
 	  <ion-row>
 	    <ion-col center text-center>
 	      <button ion-button icon-left clear small>
@@ -34,7 +31,6 @@
 	      </ion-note>
 	    </ion-col>
 	  </ion-row>
-
 	</ion-card>
 
 </ion-content>

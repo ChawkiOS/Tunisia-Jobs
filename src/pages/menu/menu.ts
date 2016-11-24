@@ -23,7 +23,7 @@ export class MenuPage {
 		],
 		[
 			{
-				title: "Actualités",
+				title: "Stage",
 				image: "http://ionicframework.com/dist/preview-app/www/assets/img/card-saopaolo.png"
 			},
 			{
@@ -38,6 +38,12 @@ export class MenuPage {
 			},
 			{
 				title: "Universités",
+				image: "http://ionicframework.com/dist/preview-app/www/assets/img/card-saopaolo.png"
+			}
+		],
+		[
+			{
+				title: "Actualités",
 				image: "http://ionicframework.com/dist/preview-app/www/assets/img/card-saopaolo.png"
 			}
 		]

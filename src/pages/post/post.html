@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Actualités
+    </ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only>
+        <ion-icon name="star-outline"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="post-content">
+
+	<ion-card>
+	  <ion-item>
+	    <h2 class="news-title">{{item.title}}</h2>
+	  </ion-item>
+	  <img [src]="item.image">
+	  <ion-card-content>
+	    <p>{{item.content}}</p>
+	  </ion-card-content>
+	</ion-card>
+</ion-content>

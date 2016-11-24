@@ -7,6 +7,7 @@ import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
 
 import { CategoryPage } from '../pages/category/category';
+import { PostPage } from '../pages/post/post';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { CategoryPage } from '../pages/category/category';
     MenuPage,
     HomePage,
     CategoryPage,
+    PostPage,
     TabsPage
   ],
   imports: [
@@ -27,6 +29,7 @@ import { CategoryPage } from '../pages/category/category';
     MenuPage,
     HomePage,
     CategoryPage,
+    PostPage,
     TabsPage
   ],
   providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}]
