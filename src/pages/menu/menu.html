@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Tunisie emploi
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="card-background-page">
+  <ion-grid>
+	  <ion-row *ngFor="let row of items">
+	  	<ion-col width-50 class="menu-col" *ngFor="let item of row" (click)="itemTapped($event, item)">
+	      <ion-card>
+			    <img class="menu-img" [src]="item.image"/>
+			    <div class="card-title">{{item.title}}</div>
+			    <div class="card-subtitle">Sub title</div>
+			  </ion-card>
+	    </ion-col>
+	  </ion-row>
+	</ion-grid>
+</ion-content>
